@@ -5,8 +5,11 @@ body {
     background-color: #14171e;
 }
 
+
+/* carousel */
+
 .carousel-item {
-    height: 100vh;
+    height: 80vh;
     min-height: 300px;
 }
 
@@ -39,53 +42,51 @@ body {
     margin-top: 15px;
 }
 
-.navbar-nav a {
-    font-family: sans-serif;
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: bold;
+.carousel-item img {
+    opacity: 0.7;
 }
 
-.navbar-light .navbar-brand {
-    color: #fff;
-    font-size: 25px;
-    letter-spacing: 2px;
+
+/* Navbar */
+
+.navbar-nav a {
+    font-family: 'Noto Sans', serif;
+    font-size: 1em;
+    text-transform: uppercase;
 }
 
 .navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link {
-    color: #fff;
+    color: rgb(223, 219, 219);
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #fff;
+    color: rgb(223, 219, 219);
 }
 
 .navbar-nav {
     text-align: center;
 }
 
-.nav-link {
-    padding: .2rem 1rem;
+#navbarSupportedContent {
+    text-align: center;
 }
 
 .nav-link.active,
 .nav-link:focus {
-    color: #fff;
+    color: rgb(223, 219, 219);
 }
 
 .navbar-toggler {
-    padding: 1px 5px;
-    font-size: 18px;
     line-height: 0.3;
-    background: #fff;
+    background: rgb(223, 219, 219);
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #fff;
+    color: rgb(223, 219, 219);
 }
 
 .w-100 {
@@ -97,15 +98,20 @@ body {
     padding: 1.2rem;
 }
 
+#search-addon {
+    background-color: #111D1D;
+    color: rgb(223, 219, 219);
+}
 
-/* Loturi */
+#navbarSupportedContent {
+    margin-right: 10%;
+}
 
-@media only screen and (max-width: 767px) {
-    .navbar-nav.ml-auto {
-        background: rgba(0, 0, 0, 0.5);
-    }
-    .navbar-nav a {
-        font-size: 14px;
-        font-weight: normal;
-    }
+
+/* footer */
+
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

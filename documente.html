@@ -25,44 +25,53 @@
 </head>
 
 <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
+        <a class="navbar-brand" href="index.html"><img src="img/frpolo_logo.png" width="80" height="50"></a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="despre.html">Despre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="loturi.html">Loturi nationale</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Campionate nationale
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="media.html">Media</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="documente.html">Documente</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bazin.html">Bazin</a>
+                </li>
 
-    <nav class="navbar navbar-expand-md bg-dark navbar-light sticky-top">
-        <!--navbar navbar-expand-lg navbar-light fixed-top-->
-        <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="img/frpolo_logo_3.png"></a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="despre.html">Despre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="stiri.html">Stiri</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Loturi nationale</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Campionat masculin</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Campionat feminin</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Media</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="documente.html">Documente</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="bazin.html">Bazin</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
     </nav>
+
+
 
     <div class="container-fluid padding">
         <div class="text-center">
@@ -89,17 +98,20 @@
         </div>
     </div>
     <br>
-
+    <!--- Footer -->
     <footer>
         <div class="container-fluid padding">
-
             <div class="row text-center">
-                <div class="col-md-12">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.655618868814!2d26.09913395137669!3d44.44022597899962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff48bcf41775%3A0x4a80812fe5ae9659!2sStrada%20Vasile%20Conta%2016%2C%20Bucure%C8%99ti%20030167!5e0!3m2!1sen!2sro!4v1614322547364!5m2!1sen!2sro"
-                        width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="col-lg-12">
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.655618868814!2d26.09913395137669!3d44.44022597899962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff48bcf41775%3A0x4a80812fe5ae9659!2sStrada%20Vasile%20Conta%2016%2C%20Bucure%C8%99ti%20030167!5e0!3m2!1sen!2sro!4v1614322547364!5m2!1sen!2sro"
+                            style="border:0; width:40vw; height:30vh; margin-right:1%;" allowfullscreen="" loading="lazy"></iframe>
 
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2847.439088853089!2d26.09268815137745!3d44.4651716789993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b2020be04532b7%3A0xddc40bceb31cf26!2sComplex%20Sportiv%20Floreasca!5e0!3m2!1sen!2sro!4v1614322691946!5m2!1sen!2sro"
-                        width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2847.439088853089!2d26.09268815137745!3d44.4651716789993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b2020be04532b7%3A0xddc40bceb31cf26!2sComplex%20Sportiv%20Floreasca!5e0!3m2!1sen!2sro!4v1614322691946!5m2!1sen!2sro"
+                            style="border:0; width:40vw; height:30vh;" allowfullscreen="" loading="lazy"></iframe>
+
+                    </div>
+
                     <a href="+40213170918">
                         <p>+40 213 170 918</p>
                     </a>
