@@ -3,9 +3,15 @@
     padding: 0;
 }
 
+html {
+    background-color: #1C2331;
+    font-family: 'Noto Sans', serif;
+    height: 100%;
+}
+
 body {
     color: rgb(223, 219, 219);
-    background-color: #111D1D;
+    background-color: #1C2331;
     font-family: 'Noto Sans', serif;
 }
 
@@ -26,7 +32,7 @@ hr {
 
 #ro {
     border-bottom: 1px solid white;
-    margin-top: 2%;
+    margin-top: 10%;
     margin-bottom: 2%;
 }
 
